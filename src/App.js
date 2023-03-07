@@ -14,20 +14,6 @@ import { loadUser } from './actions/auth';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
-//import dotenv from 'dotenv';
-import fs from 'fs';
-import assert from 'assert';
-import zlib from 'browserify-zlib';
-import { Buffer } from 'buffer';
-import constants from 'constants-browserify';
-import crypto from 'crypto-browserify';
-import https from 'https-browserify';
-import os from 'os-browserify';
-import querystring from 'querystring-es3';
-import Stream from 'stream';
-//import http from 'stream-http';
-import url from 'url';
-import path from 'path-browserify';
 
 function App() {
   // Load user

@@ -1,18 +1,4 @@
 import axios from 'axios';
-//import dotenv from 'dotenv';
-import fs from 'fs';
-import assert from 'assert';
-import zlib from 'browserify-zlib';
-import { Buffer } from 'buffer';
-import constants from 'constants-browserify';
-import crypto from 'crypto-browserify';
-import https from 'https-browserify';
-import os from 'os-browserify';
-import querystring from 'querystring-es3';
-import Stream from 'stream';
-//import http from 'stream-http';
-import url from 'url';
-import path from 'path-browserify';
 import {
   LOAD_ADS,
   LOAD_AD_DETAILS,

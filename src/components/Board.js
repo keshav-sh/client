@@ -2,20 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 import openSocket from 'socket.io-client';
-import fs from 'fs';
-import assert from 'assert';
-import browserify from 'browserify-zlib';
-import { Buffer } from 'buffer';
-import constants from 'constants-browserify';
-import crypto from 'crypto-browserify';
-import https from 'https-browserify';
-import os from 'os-browserify';
-import querystring from 'querystring-es3';
-import Stream from 'stream';
-//import http from 'stream-http';
-import url from 'url';
-//import dotenv from 'dotenv';
-import path from 'path-browserify';
 // MUI
 import { Button, Box, ButtonGroup } from '@mui/material';
 // Styling
