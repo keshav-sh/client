@@ -78,7 +78,7 @@ const Ad = (props) => {
 
   // For ad rooms
   useEffect(() => {
-    const adSocket = openSocket('http://localhost:5000', {
+    const adSocket = openSocket(process.env.REACT_APP_API_BASE_URL, {
       path: '/socket/adpage',
     });
     // User enters add page

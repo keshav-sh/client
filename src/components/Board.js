@@ -28,7 +28,7 @@ const Board = (props) => {
       props.loadAds(props.passedUser);
     } else {
       props.loadAds();
-      const socket = openSocket('http://localhost:5000');
+      const socket = openSocket(process.env.REACT_APP_API_BASE_URL);
       // when new ad is added
       socket.on('addAd', (data) => {
         console.log(data);
